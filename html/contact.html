@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Mon Site Personnel</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Site Personnel</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li> 
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="manifestations.html">Manifestations</a></li>
+                <li><a href="matieres.html">Matières</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="quizz.html">Quizz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="temoignage.html">Témoignage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contactez-nous</h2>
+            <form action="mailto:mohamedtrikii@hotmail.com" method="POST" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom :</label>
+                    <input type="text" id="name" name="Nom" class="form-control" placeholder="Tapez votre nom" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email :</label>
+                    <input type="email" id="exampleFormControlInput1" name="Email" class="form-control" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message :</label>
+                    <textarea id="exampleFormControlTextarea1" name="Message" class="form-control" rows="5" placeholder="Tapez votre message ici..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Site Personnel</p>
+    </footer>
+</body>
+</html>

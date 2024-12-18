@@ -1,0 +1,207 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #005f99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* pour faire un espoce entre les items */
+}
+
+.box-blanc {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-blanc h3 {
+    color: #005f99;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.box-blanc p {
+    color: #555;
+    font-size: 1em;
+}
+
+.box-blanc a {
+    display: block;
+    margin-top: 10px;
+}
+
+.box-blanc img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.box-blanc h2 emploi {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #005f99;
+    color: white;
+    margin-top: 20px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+ justify-content: center;
+}
+
+.social-links li {
+    margin-right: 15px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+
+.competences {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.competences h3 {
+    color: #005f99;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.competences ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.competences li {
+    margin: 10px 0;
+}
+
+.competences li img {
+    margin-right: 10px;
+}
+
+.competences p {
+    color: #555;
+    font-size: 1em;
+}
+
+
+
+/* Style pour le tableau des activités */
+.activities-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.activities-table th, .activities-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.activities-table th {
+    background-color: #005f99;
+    color: white;
+}
+
+.activities-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.activities-table tr:hover {
+    background-color: #ddd;
+}
+
+#photographie .box-blanc img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px; 
+}
+
+input[type="button"] {
+    padding: 10px 20px;                  
+    background-color: #007BFF;          
+    color: white;                     
+    border: none;                        
+    cursor: pointer;                    
+    font-size: 16px;                   
+    width: 100%;                        
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre autour du formulaire */
+    width: 100%;
+    max-width: 600px; /* Limite la largeur du formulaire */
+}
